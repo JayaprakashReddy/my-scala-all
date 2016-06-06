@@ -1,0 +1,2 @@
+This the project root for my-scala-all project.
+This includes all the code snippets I write as I learn scala programming from various sources and tutorials.
