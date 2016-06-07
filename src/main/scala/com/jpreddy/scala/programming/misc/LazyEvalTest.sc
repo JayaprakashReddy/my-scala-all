@@ -5,4 +5,5 @@ object LazyEvalTest {
   val x = true && { println("Hello");  false}     //> Hello
                                                   //| x  : Boolean = false
   println(x)                                      //> false
+  
 }
