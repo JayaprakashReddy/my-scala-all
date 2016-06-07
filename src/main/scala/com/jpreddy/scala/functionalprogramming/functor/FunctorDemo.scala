@@ -15,4 +15,8 @@ object FunctorDemo extends App {
   val lt = List(1,4,7,3)
   val lt1 = addOne(lt)
   lt1.foreach(x => print(" "+x))
+  
+  println
+  val r1=Functor[Option].map(Option(23)){_ +1}
+  println(r1)
 }
