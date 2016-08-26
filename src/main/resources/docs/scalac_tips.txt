@@ -1,0 +1,1 @@
+scalac -Xprint:parser com.jpreddy.scala.programming.functions.Currying.scala
